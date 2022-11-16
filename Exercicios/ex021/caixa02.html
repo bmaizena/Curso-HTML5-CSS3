@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+        }
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 90px;
+            box-shadow: 3px 3px 7px rgba(10, 10, 10, 0.384);
+            
+        }
+        h1 {
+            text-shadow: 3px 3px 7px rgba(10, 10, 10, 0.384);
+            text-align: center;
+        }
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 90px 10px ;
+            box-shadow: 3px 3px 7px rgba(10, 10, 10, 0.384);
+        }
+        footer {
+            background-color: black;
+            padding: 10px;
+            color: white;
+            text-align: center;
+            border-radius: 10px 90px;
+            box-shadow: 3px 3px 7px rgba(10, 10, 10, 0.384);
+            margin: 10px;
+        }
+        footer > p {
+            margin: 0px
+
+        }
+        article {
+            background-color: aquamarine;
+            padding: 5px;
+            border-radius: 90px 10px;
+            box-shadow: 3px 3px 7px rgba(10, 10, 10, 0.384);
+            text-align: justify;
+        }
+        
+        aside {
+            background-color: rgb(27, 228, 161);
+            border-radius: 90px 10px;
+            width: 300px;
+            text-indent: 10px;
+            box-shadow: 3px 3px 7px rgba(10, 10, 10, 0.384);
+        }
+        h2 {
+            text-align: center;
+            text-shadow: 3px 3px 7px rgba(10, 10, 10, 0.329);
+        }
+        nav {
+            background-color: rgb(121, 117, 117);
+            padding: 3px;
+            border-radius: 10px 90px;
+            box-shadow: 3px 3px 7px rgba(10, 10, 10, 0.384);
+            width: 450px;
+            text-align: center;
+            margin-left: 50px;
+        }
+        nav > a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            margin: 10px;
+        }
+        nav > a:hover {
+            text-decoration: underline ;
+        }
+        #bola {
+            background-color: white;
+            height: 100px;
+            width: 100px;
+            margin: auto;
+            border-radius: 50%;
+            box-shadow: 3px 3px 7px rgba(10, 10, 10, 0.384);
+            
+        }
+        #bola:hover {
+            background-color: rgba(108, 240, 32, 0.959);
+            height: 130px;
+            width: 130px;
+            
+            
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">LINK</a>
+            <a href="#">LINK</a>
+            <a href="#">LINK</a>
+            <a href="#">LINK</a>
+            <a href="#">LINK</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed repellat, aliquam fuga ipsam nemo corrupti laborum officia, doloremque, quidem vel tenetur doloribus? Amet quaerat libero debitis illum qui tempore provident?</p>
+                <aside>
+                    <p>Artigo escrito por José Pedro</p>
+                </aside>
+            </article>
+    
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido pelo CEV</p>
+    </footer>
+    <div id="bola">
+        
+    </div>
+</body>
+</html>
