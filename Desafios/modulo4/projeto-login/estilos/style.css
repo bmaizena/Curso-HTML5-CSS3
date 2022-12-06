@@ -76,11 +76,11 @@ div.campo > span.material-symbols-rounded {
 
 div.campo > input {
     border: 0px;
-    border-radius: 8px;
+    border-radius: 5px;
     background-color: rgb(238, 223, 204);
     font-size: 0.9em;
-    height: 95%;
-    width: calc(100% - 45px);
+    height: 80%;
+    width: calc(100% - 46px);
     transform: translateY(-13px);
 }
 
