@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Media Query</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <span id="burger" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
+        <menu id="menu">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Notícias</a></li>
+                <li><a href="#">Explorer</a></li>
+                <li><a href="#">Curiosidades</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2>Testando Meida Queries</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, facere eaque, repellendus qui dicta omnis in atque quos vel ad iusto! Quibusdam est reiciendis iusto non sequi nam illum aut? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum rem harum, vero nesciunt odio eaque veniam ratione reprehenderit adipisci doloremque perferendis dolorem at beatae consequuntur, quisquam itaque, non alias eum.</p>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore libero ipsam odio minima. Cupiditate eius repellat eveniet optio sapiente deleniti assumenda autem labore incidunt nihil, explicabo tenetur similique fuga cum!</p>
+
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat, aspernatur sequi beatae ipsam sapiente inventore possimus doloremque! Amet rem reprehenderit numquam vel dignissimos nulla excepturi deleniti ad? Cupiditate, repudiandae consequuntur? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus sint, debitis, qui at veniam, obcaecati enim voluptatem voluptate dolores nisi atque hic reiciendis ea et vero aperiam? Reiciendis, molestias. Exercitationem?</p>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel necessitatibus repellat aliquid libero assumenda fugiat consectetur, dolorum, facere sunt deserunt architecto voluptatum asperiores laudantium maxime dolor non illum, enim animi!</p>
+        </article>
+    </main>
+    <script>
+        function clickMenu() {
+            if (menu.style.display == 'block') {
+                menu.style.display = 'none'
+            }
+            else {
+                menu.style.display = 'block'
+            }
+
+        }
+    </script>
+</body>
+</html>
